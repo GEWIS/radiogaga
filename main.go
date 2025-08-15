@@ -2,8 +2,9 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/rs/zerolog/log"
 	"net/http"
+
+	"github.com/rs/zerolog/log"
 )
 
 type RadioInfo struct {
@@ -15,9 +16,9 @@ type RadioInfo struct {
 
 var (
 	port            = String("PORT", ":8080")
-	videoURL        = String("RADIO_VIDEO_URL", "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8")
-	audioURL        = String("RADIO_AUDIO_URL", "https://fr1.streamhosting.ch")
-	audioMountPoint = String("RADIO_AUDIO_MOUNT_POINT", "/lounge64.aac")
+	videoURL        = String("RADIO_VIDEO_URL", "https://restreamer.gewis.nl/memfs/b0d27314-d7cc-477b-9c5a-f22ef7c7ad32.m3u8")
+	audioURL        = String("RADIO_AUDIO_URL", "https://radio-icecast.gewis.nl")
+	audioMountPoint = String("RADIO_AUDIO_MOUNT_POINT", "/stream")
 	radioStartTime  = String("RADIO_START_TIME", "2025-08-18T07:00:00Z")
 	token           = String("RADIO_GEWIS_TOKEN", "gewis-radio")
 )
