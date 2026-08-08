@@ -1,5 +1,8 @@
 # RadioGaGa
 
+> [!IMPORTANT]
+> This repository has moved. Development continues at [GEWIS/intro-radio](https://github.com/GEWIS/intro-radio) (as `backend/`), which merges this repo with GEWIS/radioweb into one monorepo with full history preserved. This repo is archived and read-only.
+
 [![CI](https://github.com/GEWIS/radiogaga/actions/workflows/ci.yaml/badge.svg)](https://github.com/GEWIS/radiogaga/actions/workflows/ci.yaml)
 
 RadioGaGa is a Golang-based backend for a simple Icecast/HLS stream frontend, with basic **one-on-one chat** functionality between listeners and radio staff.
